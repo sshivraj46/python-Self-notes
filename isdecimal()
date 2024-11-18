@@ -7,3 +7,4 @@ print("٢٣٤ : ","٢٣٤".isdecimal()) #True
 print("2.4 ","2.4".isdecimal()) #False
 print("2^4 ","2^4".isdecimal()) #False
 print("2/4 ","2/4".isdecimal()) #False
+print("2%4 ","2%4".isdecimal()) #False
