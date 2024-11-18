@@ -1,0 +1,11 @@
+"---------------------------------------------------------------------------"
+"----strng.inalnum()"
+
+print("sshivraj46:","sshivraj46".isalnum()) #True
+print("sshivraj :","sshivraj".isalnum()) #True
+print("46","46".isalnum()) #True
+
+print("sshivraj 46(contains space) :","sshivraj 46".isalnum()) #False
+print("sshivraj*46(contains special character) :","sshivraj 46".isalnum()) #False
+print('""(empty string) :',"sshivraj 46".isalnum()) #False
+"---------------------------------------------------------------------------"
