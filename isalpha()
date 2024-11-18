@@ -3,5 +3,5 @@ print("sshivraj:","sshivraj".isalpha()) #True
 print("sshiv raj(space):","sshiv raj".isalpha()) #False
 print("sshivraj46(Numeric value):","sshivraj46".isalpha()) #Flase
 print("46(Numeric value)","46".isalpha()) #False
-print("shivraj@(special String)","46".isalpha()) #False
+print("shivraj@(special String)","shivraj@".isalpha()) #False
 print('""(Empty String)',"".isalpha()) #False
