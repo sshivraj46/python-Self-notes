@@ -1,1 +1,13 @@
+#strngName.isnumeric()
 
+print("1332 : ","1332".isnumeric())#True
+print("³".isnumeric())  # Output: True (superscript 3)
+print("१२३४ : ","१२३४".isdigit()) #True
+print("٢٣٤ : ","٢٣٤".isdigit()) #True
+print("½ :","½".isnumeric())  #True (fraction character {available in UNICODE character})
+print("Ⅳ (Roman numeral):","Ⅳ".isnumeric())  #True (Roman numeral)
+print()
+print("13.32 : ","13.32".isnumeric())#False
+print('"" (empty string)',"".isnumeric())#False
+print("123abc : ","123abc".isnumeric()) #False (contains letters)
+print("12 34 : ","12 34".isnumeric())  #False (contains a space)
