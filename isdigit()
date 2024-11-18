@@ -1,0 +1,10 @@
+# strName.isdigit()
+print("1232 :","1232".isdigit())#True
+print("१२३४ : ","१२३४".isdigit()) #True
+print("٢٣٤ : ","٢٣٤".isdigit()) #True
+print("2² : ","2²".isdigit())#True
+print()
+print("Ⅳ : ","Ⅳ".isdigit())#False
+print("2/4 ","2/4".isdecimal()) #False
+print("2.4 ","2.4".isdecimal()) #False
+print("2%4 ","2%4".isdecimal()) #False
