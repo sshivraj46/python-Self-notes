@@ -1,0 +1,10 @@
+#str.isascii()
+print("sshivraj:","sshivraj".isascii()) #True
+print("sshiv raj(with space):","sshiv raj".isascii()) #True
+print('"" (empty String)',"".isascii()) #True
+print('"12345 : " (empty String)',"12345".isascii()) #True
+print("Hello123!".isascii())      # True: Contains ASCII letters, digits, and punctuation
+
+print("Héllo".isascii())          # False: Contains 'é', which is non-ASCII
+print("你好".isascii())            # False: Contains Chinese characters
+print("مرحبا".isascii())          # False: Contains Arabic characters
